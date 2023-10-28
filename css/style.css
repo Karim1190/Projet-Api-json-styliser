@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête (titre) */
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+/* Styles pour le conteneur des images de chat */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styles pour les images de chat */
+.cat-image {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type main (pour indiquer que le bouton est cliquable) */
+    transition: background-color 0.3s ease; /* Animation de transition pour la couleur de fond */
+    margin: 5px;
+}
+
+button:hover {
+    background-color: gray; /* Couleur de fond au survol du bouton */
+}
